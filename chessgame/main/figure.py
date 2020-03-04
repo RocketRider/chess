@@ -21,7 +21,7 @@ class Figure:
         Arguments:
             new_x {int} -- new position
             new_y {int} -- new position
-            is_occupied {bool} -- is new position occupied?
+            is_occupied {None or COLOR} -- is new position occupied?
 
         Return:
             True if move was made
